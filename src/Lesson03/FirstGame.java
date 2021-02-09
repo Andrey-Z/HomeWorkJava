@@ -3,7 +3,7 @@ package Lesson03.online;
 import java.util.Random;
 import java.util.Scanner;
 
-public class FirstGame {     
+public class FirstGame {
 
         public static char[][] map; // 1.создаём массив типа char (потому что х,о это символы),называем его.
         public static int mapSizeW; // 2. объявляем переменные int(массив измеряется только целочисленными значениями), характеризующие наше поле.
