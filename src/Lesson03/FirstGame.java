@@ -12,7 +12,7 @@ public class FirstGame {
         public static char player = 'X'; // 3. выносим наши значения(игроки и символы) в переменные и называем их. наш игрок
         public static char computer = 'O'; // 3.1 наш противник
         public static char empty_cell = '.'; // 3.2 наша пустая клетка
-
+ 
         public static Scanner scanner = new Scanner(System.in); // 9. инструмент, класс, который работает с пользовательским вводом(нужно чтото напечатать), наз-ся scanner.
                     // 9.1 Создаётся точно так же как массив. В скобках(System.in), т.к сканер будет считывать наши значения(система будет принимать их в себя).
         public static Random random = new Random(); // 13. инструмент, он же класс, который отвечает за рандомизацию выдаваемых значений.
